@@ -21,6 +21,10 @@ RUN apt-get update && apt-get install -y \
     git \
     curl
 
+# NodeJS
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash
+RUN apt-get install --yes nodejs
+
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
@@ -48,3 +52,7 @@ USER www
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
 CMD ["php-fpm"]
+
+# React
+RUN composer require laravel/ui
+RUN php artisan ui react

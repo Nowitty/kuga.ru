@@ -19,9 +19,13 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+
+{{--        <script type="text/javascript" src="js/app.js"></script>--}}
     </head>
     <body class="antialiased">
         <h1>this is news</h1>
         <h1>LALA DADDY HOME</h1>
+        <div id="example"></div>
+        <script src="{{mix('js/app.js')}}" ></script>
     </body>
 </html>
