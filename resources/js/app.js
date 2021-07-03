@@ -12,5 +12,8 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
+import Main from './components/Main';
+
+require('./components/NewsList');
+require('./components/NewsItem');
 

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Kuga</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -20,12 +20,11 @@
             }
         </style>
 
-{{--        <script type="text/javascript" src="js/app.js"></script>--}}
     </head>
     <body class="antialiased">
-        <h1>this is news</h1>
-        <h1>LALA DADDY HOME</h1>
-        <div id="example"></div>
+        <div id="root"></div>
+        <div id="news-list"></div>
+{{--        <div id="news-item"></div>--}}
         <script src="{{mix('js/app.js')}}" ></script>
     </body>
 </html>
