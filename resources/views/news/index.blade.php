@@ -24,7 +24,7 @@
     <body class="antialiased">
         <div id="root"></div>
         <div id="news-list"></div>
-{{--        <div id="news-item"></div>--}}
+<!--        <div id="news-item"></div>-->
         <script src="{{mix('js/app.js')}}" ></script>
     </body>
 </html>

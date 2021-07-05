@@ -10,10 +10,10 @@ class NewsController extends Controller
     public function index()
     {
         $data = [
-//            ['id' => 1, 'title' => 'super1'],
-//            ['id' => 2, 'title' => 'super2'],
-//            ['id' => 3, 'title' => 'super3'],
-//            ['id' => 4, 'title' => 'super3']
+            ['id' => 1, 'title' => 'super1'],
+            ['id' => 2, 'title' => 'super2'],
+            ['id' => 3, 'title' => 'super3'],
+            ['id' => 4, 'title' => 'super4']
         ];
 
         return response()->json($data);
