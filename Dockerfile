@@ -54,5 +54,4 @@ EXPOSE 9000
 CMD ["php-fpm"]
 
 # React
-RUN composer require laravel/ui
 RUN php artisan ui react
